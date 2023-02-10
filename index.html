@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FoodHub</title>
+</head>
+<body>
+    <div id="header">
+        <div id="subHeader1">
+            <img src="./assets/logo.png">
+            <button id="home-button">Home</button>
+        </div><br>
+        <div id="subHeader2">
+            <h1>Welcome to FoodHub</h1>
+            <p>Our web application is designed to help eliminate the daily struggle of deciding what to make for dinner.
+            With FoodHub, you'll receive new and delicious meal ideas every day, taking the guesswork out of meal planning.
+            Enjoy stress-free cooking and delicious meals with FoodHub.
+        </p><br>
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>Select before Searching</p><br>
+            <button class="modeButton" id="mode1">Category</button> <button class="modeButton" id="mode2">Region</button> <button class="modeButton" id="mode3">Letter</button><br><br>
+            <div><input id="searchBar" type="text" placeholder="Search for meals...."><Button id="SearchButton">Search</Button></div>
+        </div>
+    </div>
+    <h2>Random Meal</h2>
+    <div id="randomMealCard">
+    </div><br>
+    <div><h2 id="searchInput"></h2></div>
+    <div id="results">
+    </div>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Ingredients</h4>
+            <br><hr><br>
+            <div id="ingredients">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <div><br>
+            Made with ❤️ by Ahamed Meyan
+        </div><br>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
